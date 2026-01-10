@@ -357,19 +357,9 @@ LLMRouterBench 将标准化 JSON 记录存储于 `results/bench/`，并提供预
 <table>
 <tr>
 <td align="center">
-<strong>百度网盘</strong><br>
-<a href="https://pan.baidu.com/s/1bfa_eX3bhuo7wgNlD_dbpA?pwd=mmbf">bench-release.tar.gz</a><br>
-<sub>提取码: mmbf</sub>
-</td>
-<td align="center">
 <strong>Google Drive</strong><br>
 <a href="https://drive.google.com/file/d/12pupoZDjqziZ2JPspH60MCC8fdXWgnX1/view?usp=drive_link">bench-release.tar.gz</a>
 </td>
-<td align="center">
-<strong>Hugging Face</strong><br>
-<a href="https://huggingface.co/datasets/NPULH/LLMRouterBench">bench-release.tar.gz</a>
-</td>
-</tr>
 </table>
 </div>
 
@@ -483,68 +473,6 @@ LLMRouterBench/
 - 扩展基准测试集
 - 更多基线方法
 - 扩展路由范式
-
-## 相关工作
-
-### 与现有路由基准对比
-
-<div align="center">
-<img src="assets/Table1_2.png" width="95%" alt="与现有路由基准对比">
-</div>
-
-现有路由基准存在以下局限：
-
-- **RouterBench**: 仅覆盖早期模型和 8 个较简单的数据集
-- **EmbedLLM & RouterEval**: 仅关注开源模型，缺乏推理成本信息
-- **FusionFactory**: 仅使用估算成本评测开源模型
-- **RouterArena**: 各路由器使用不同模型池，难以公平比较，且缺乏逐提示、逐模型的细粒度数据
-
-## 引用
-
-如果本工作对您有帮助，请引用我们的论文：
-```bibtex
-@article{llmrouterbench,
-  title={LLMRouterBench: A Massive Benchmark and Unified Framework for LLM Routing},
-  author={Li, Hao and Zhang, Yiqun and Guo, Zhaoyan and Wang, Chenxu and Tang, Shengji and Zhang, Qiaosheng and Yang, Chen and Qi, BiQing and Ye, Peng and Bai, Lei and Wang, Zhen and Hu, Shuyue},
-  note={Coming soon},
-  year={2025}
-}
-```
-本工作是我们 LLM 路由系列研究的一部分，相关工作：
-```bibtex
-@inproceedings{zhang2025avengers,
-  title        = {The Avengers: A Simple Recipe for Uniting Smaller Language Models to Challenge Proprietary Giants},
-  author       = {Zhang, Yiqun and Li, Hao and Wang, Chenxu and Chen, Linyao and Zhang, Qiaosheng and Ye, Peng and Feng, Shi and Wang, Daling and Wang, Zhen and Wang, Xinrun and others},
-  booktitle    = {Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
-  year         = {2025},
-  note         = {Oral presentation},
-  url          = {https://arxiv.org/abs/2505.19797}
-}
-@inproceedings{zhang2025beyond,
-  title        = {Beyond gpt-5: Making llms cheaper and better via performance-efficiency optimized routing},
-  author       = {Zhang, Yiqun and Li, Hao and Chen, Jianhao and Zhang, Hangfan and Ye, Peng and Bai, Lei and Hu, Shuyue},
-  booktitle    = {Distributed AI (DAI) conference},
-  year         = {2025},
-  note         = {Best Paper Award},
-  url          = {https://arxiv.org/abs/2508.12631}
-}
-@inproceedings{wang2025icl,
-  title        = {ICL-Router: In-Context Learned Model Representations for LLM Routing},
-  author       = {Wang, Chenxu and Li, Hao and Zhang, Yiqun and Chen, Linyao and Chen, Jianhao and Jian, Ping and Ye, Peng and Zhang, Qiaosheng and Hu, Shuyue},
-  booktitle    = {Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
-  year         = {2025},
-  note         = {Poster},
-  url          = {https://arxiv.org/abs/2510.09719}
-}
-@article{chen2025learning,
-  title        = {Learning Compact Representations of LLM Abilities via Item Response Theory},
-  author       = {Chen, Jianhao and Wang, Chenxu and Zhang, Gengrui and Ye, Peng and Bai, Lei and Hu, Wei and Qu, Yuzhong and Hu, Shuyue},
-  journal      = {arXiv preprint arXiv:2510.00844},
-  year         = {2025},
-  url          = {https://arxiv.org/abs/2510.00844v1}
-}
-```
-
 ---
 
 <div align="center">
