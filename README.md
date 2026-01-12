@@ -44,14 +44,12 @@ LLMRouterBench is a large-scale benchmark and unified framework for LLM routing.
 ### What's Included
 
 - **Two Routing Paradigms**: **Performance-oriented**  | **Performance-Cost** tradeoff
-- **Modular Architecture**: **Collector** (unified LLM API) → **Evaluator** (dataset-specific scoring) → **Adaptor** (algorithm-specific formatting)
 - **State-of-the-Art Model Pools**: 20 **lightweight** ~7B LLMs (Qwen3-8B, DS-Qwen3, NVIDIA-Nemo, etc.) + 13 **flagship** LLMs from 8 providers (GPT-5, Gemini-2.5-Pro, Claude-4, DeepSeek-V3.1, etc.)
 - **Challenging & Diverse Datasets**: **Math** (AIME, LiveMathBench), **Code** (LiveCodeBench, SWE-Bench), **Logic** (BBH, KORBench), **Knowledge** (HLE, SimpleQA), **Affective** (EmoryNLP, MELD), **Instruction Following** (ArenaHard), **Tool Use** (τ²-Bench)
-- **Representative Routing Baselines**: RouterDC (NeurIPS'24), EmbedLLM (ICLR'25), MODEL-SAT (AAAI'25), Avengers (AAAI'26), HybridLLM (ICLR'24), FrugalGPT (TMLR'24), RouteLLM (ICLR'25), GraphRouter (ICLR'25), **Avengers-Pro** (DAI'25 Best Paper), OpenRouter
+- **Representative Routing Baselines**: RouterDC (NeurIPS'24), EmbedLLM (ICLR'25), MODEL-SAT (AAAI'25), Avengers (AAAI'26), HybridLLM (ICLR'24), FrugalGPT (TMLR'24), RouteLLM (ICLR'25), GraphRouter (ICLR'25), Avengers-Pro (DAI'25 Best Paper), OpenRouter
 - **Substantial Data Collection Cost**: ~1K GPU hours + $3000 API spend
-
 - **Standardized Data Fields** (per instance): `origin_query`, `prompt`, `prediction(raw output)`, `ground_truth`, `score`, `prompt_tokens`, `completion_tokens`, `cost`
-
+- **Modular Architecture**: **Collector** (unified LLM API) → **Evaluator** (dataset-specific scoring) → **Adaptor** (algorithm-specific formatting)
 ---
 
 ## Key Findings

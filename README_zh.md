@@ -44,14 +44,12 @@ LLMRouterBench 是一个大规模 LLM 路由评测基准与统一框架。我们
 ### 核心亮点
 
 - **双路由范式**: **纯性能** | **性能-成本**权衡
-- **模块化架构**: **Collector**（统一 LLM API）→ **Evaluator**（数据集评分）→ **Adaptor**（算法格式适配）
 - **前沿模型池**: 20 个 7B 级**轻量**模型（Qwen3-8B、DS-Qwen3、NVIDIA-Nemo 等）+ 来自 8 家厂商的 13 个**旗舰**模型（GPT-5、Gemini-2.5-Pro、Claude-4、DeepSeek-V3.1 等）
 - **多样化高难度数据集**: **数学**（AIME、LiveMathBench）、**代码**（LiveCodeBench、SWE-Bench）、**逻辑**（BBH、KORBench）、**知识**（HLE、SimpleQA）、**情感**（EmoryNLP、MELD）、**指令遵循**（ArenaHard）、**工具使用**（τ²-Bench）
-- **代表性路由方法**: RouterDC (NeurIPS'24)、EmbedLLM (ICLR'25)、MODEL-SAT (AAAI'25)、Avengers (AAAI'26)、HybridLLM (ICLR'24)、FrugalGPT (TMLR'24)、RouteLLM (ICLR'25)、GraphRouter (ICLR'25)、**Avengers-Pro** (DAI'25 最佳论文)、OpenRouter
+- **代表性路由方法**: RouterDC (NeurIPS'24)、EmbedLLM (ICLR'25)、MODEL-SAT (AAAI'25)、Avengers (AAAI'26)、HybridLLM (ICLR'24)、FrugalGPT (TMLR'24)、RouteLLM (ICLR'25)、GraphRouter (ICLR'25)、Avengers-Pro (DAI'25 最佳论文)、OpenRouter
 - **数据收集成本**: 约 1000 GPU 小时 + 3000 美元 API 开销
-
 - **标准化数据字段**（逐实例）: `origin_query`, `prompt`, `prediction(raw output)`, `ground_truth`, `score`, `prompt_tokens`, `completion_tokens`, `cost`
-
+- **模块化架构**: **Collector**（统一 LLM API）→ **Evaluator**（数据集评分）→ **Adaptor**（算法格式适配）
 ---
 
 ## 关键发现
