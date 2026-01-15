@@ -8,7 +8,7 @@
 
 [English](README.md) | [中文](README_zh.md)
 
-![Paper](https://img.shields.io/badge/Paper-Coming%20Soon-red.svg)
+[![Paper](https://img.shields.io/badge/Paper-arXiv-red.svg)](http://arxiv.org/abs/2601.07206)
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-yellow.svg)](https://huggingface.co/datasets/NPULH/LLMRouterBench)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)]()
@@ -504,13 +504,13 @@ Existing routing benchmarks face several limitations:
 
 ## Citation
 
-If you find LLMRouterBench useful, please cite our paper:
+If you find LLMRouterBench useful, consider citing our paper:
 ```bibtex
-@article{llmrouterbench,
+@article{li2026llmrouterbench,
   title={LLMRouterBench: A Massive Benchmark and Unified Framework for LLM Routing},
-  author={Li, Hao and Zhang, Yiqun and Guo, Zhaoyan and Wang, Chenxu and Tang, Shengji and Zhang, Qiaosheng and Yang, Chen and Qi, BiQing and Ye, Peng and Bai, Lei and Wang, Zhen and Hu, Shuyue},
-  note={Coming soon},
-  year={2025}
+  author={Li, Hao and Zhang, Yiqun and Guo, Zhaoyan and Wang, Chenxu and Tang, Shengji and Zhang, Qiaosheng and Chen, Yang and Qi, Biqing and Ye, Peng and Bai, Lei and others},
+  journal={arXiv preprint arXiv:2601.07206},
+  year={2026}
 }
 ```
 This work is part of our series of studies on LLM routing; if you're interested, please refer to and cite:
