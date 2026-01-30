@@ -507,10 +507,10 @@ Existing routing benchmarks face several limitations:
 If you find LLMRouterBench useful, consider citing our paper:
 ```bibtex
 @article{li2026llmrouterbench,
-  title={LLMRouterBench: A Massive Benchmark and Unified Framework for LLM Routing},
-  author={Li, Hao and Zhang, Yiqun and Guo, Zhaoyan and Wang, Chenxu and Tang, Shengji and Zhang, Qiaosheng and Chen, Yang and Qi, Biqing and Ye, Peng and Bai, Lei and others},
-  journal={arXiv preprint arXiv:2601.07206},
-  year={2026}
+  title   = {LLMRouterBench: A Massive Benchmark and Unified Framework for LLM Routing},
+  author  = {Li, Hao and Zhang, Yiqun and Guo, Zhaoyan and Wang, Chenxu and Tang, Shengji and Zhang, Qiaosheng and Chen, Yang and Qi, Biqing and Ye, Peng and Bai, Lei and Wang, Zhen and Hu, Shuyue},
+  journal = {arXiv preprint arXiv:2601.07206},
+  year    = {2026}
 }
 ```
 This work is part of our series of studies on LLM routing; if you're interested, please refer to and cite:
